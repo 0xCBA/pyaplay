@@ -31,3 +31,4 @@ def play_audio_file(filename):
     :param filename: str: File to use for playing audio.
     """
     call(["aplay", filename])
+
